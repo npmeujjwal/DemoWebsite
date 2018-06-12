@@ -1,0 +1,47 @@
+ul {
+	list-style: none;
+	text-align: center;
+}
+
+html {
+	background: linear-gradient(rgba(0,0,0,1), rgba(110,110,110,1));
+}
+
+h1 {
+	color: white;
+	font-size: 35px;
+	text-align: center;
+	margin-left: 60px;
+}
+
+ul li {
+	line-height: 30px;
+	margin-bottom: 15px;
+}
+
+ul li::before {
+	content: "\f001";
+	font-family: FontAwesome;
+	color: grey;
+	font-size: 30px;
+	margin-right: 5px;
+
+}
+
+.song, .name {
+	color: white;
+	font-size: 20px;
+
+}
+
+.song .singer {
+	color:grey;
+	font-size: 15px;
+
+}
+
+.song .singer::before {
+	content: "-";
+	margin-left: 35px;
+	margin-top: -10px;
+}
