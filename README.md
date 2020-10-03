@@ -1,1 +1,1 @@
-Some Basic Stuff that I learned
+Some Basic Stuff that I learned.
